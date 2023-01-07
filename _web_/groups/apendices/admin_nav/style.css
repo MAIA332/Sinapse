@@ -1,0 +1,86 @@
+/* 
+==================================================NAVEGAÇÃO===============================================
+========================================================================================================== */
+
+#header
+{
+    position: relative;
+    float: left;
+    width: 300px;
+    padding: 3em 0em;
+    background-color: var(--dark);
+}
+
+#logo
+{
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+#logo h1
+{
+    display: block;
+}
+
+#logo a
+{
+    text-decoration: none;
+    color: var(--standart);
+}
+
+#logo span
+{
+    padding-right: 0.5em;
+    text-transform: uppercase;
+    font-size: 0.90em;
+    color: rgba(255,255,255,0.3);
+}
+
+#logo span a
+{
+    color: rgba(255,255,255,0.5);
+}
+
+#logo img
+{
+    display: inline-block;
+    margin-bottom: 1em;
+    border-radius: 30%;
+    width: 50%;
+    margin-left: 5%;
+    height: 170px;
+}
+
+#menu li
+{
+    border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+#menu li a, #menu li span
+{
+    display: block;
+    padding: 2em 1.5em;
+    text-align: center;
+    text-decoration:  none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(255,255,255,0.5);
+}
+
+#menu li:hover{
+    background: var(--btnBlueSelect);
+    
+}
+
+#menu li a:hover{
+    color:var(--standart);
+}
+#menu .current_page_item a
+{
+    background: var(--btnBlueSelect);
+    color: var(--standart);
+}
+
+ul li{
+    list-style: none;
+}

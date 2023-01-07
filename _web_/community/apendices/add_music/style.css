@@ -1,0 +1,48 @@
+
+.popup{
+    width: 30%;
+    height: 500px;
+    position: absolute;
+    background-color: #FFF;
+    margin-left: 38%;
+    margin-top: 5%;
+}
+
+
+.hidden{
+    visibility: hidden;
+    position: absolute;
+   
+}
+
+  .show {
+    visibility: visible;
+    position: relative;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+
+   
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+
+
+  .layer{
+      background-color: #555;
+      height: 700px;
+      opacity: 0.8;
+  }
+
+  .close_btn{
+      float: right;
+      cursor: pointer;
+  }
+ 

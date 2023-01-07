@@ -1,0 +1,180 @@
+
+/* ====================================SECTION GP ================================================ */
+/* ================================================================================================ */
+
+
+.section-gp{
+    margin-top: 5%;
+}
+
+.section-gp .escopo .item-escopo{
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.section-gp hr{
+    opacity: 0.3;
+}
+
+.item-escopo h2{
+    font-size: 1.3em;
+    cursor: default;
+}
+
+.item-escopo input[type="text"],.item-escopo input[type="submit"]{
+    border-radius: 5px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+.item-escopo input[type="text"]:focus{
+    border: 2px solid var(--btnBlueSelect);
+}
+
+.item-escopo input[type="submit"]{
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.item-escopo input[type="submit"]:hover{
+    transform: scale(1.1);
+    border: 2px solid var(--btnBlueSelect);
+}
+
+
+.btn-add-gp{
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 43%;
+}
+
+.btn-add-gp:hover a{
+    color: var(--btnBlueSelect);
+}
+
+
+.btn-top{
+    border-radius: 25px;
+    position: absolute;
+    margin-left: 75%;
+    margin-top: -30%;
+    transition: 0.3s;
+}
+
+.btn-top:hover{
+    margin-top: -31%;
+    border: 1px inset var(--btnBlueSelect);
+}
+
+.item-gp{
+    height: 250px;
+    width: 55%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+
+.gp-name h1{
+    font-size: 1.6em;
+    transition: 0.5s;
+}
+
+.gp-name:hover h1{
+    transform: scale(1.1);
+}
+
+.item-gp hr{
+    margin-top: 5%;
+}
+
+.item-gp img{
+    width: 30%;
+    border-radius: 5px;
+}
+
+.item-gp .gp-desc{
+    margin-top: 2%;
+}
+
+.item-gp .gp-status{
+    position: absolute;
+    margin-left: 27%;
+    margin-top: -10%;
+}
+
+.gp-status p{
+    color: var(--btnBlueSelect);
+}
+
+.item-gp .gp-last{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -9%;
+}
+    
+.hide{
+    display: none;
+}
+
+#carregar{
+    margin-left: 15%;
+    width: 40%;
+    background-color: transparent;
+    font-size: 1em;
+    border: none;
+    border-bottom: 1px solid var(--primary);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#carregar:hover{
+    transform: scale(1.1);
+    color: var(--btnBlueSelect);
+}
+
+/* ====================================SECTION JUKEBOX ================================================ */
+/* ================================================================================================ */
+
+.section-jukebox{
+    width: 25%;
+    height: 350px;
+    position: absolute;
+    margin-left: 73%; 
+    margin-top:15%;
+    overflow-y: scroll;
+}
+
+.item-juke{
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.section-jukebox h2{
+    margin-left: 5%;
+}
+
+.section-jukebox audio{
+    width: 100%;
+}
+
+.section-jukebox hr{
+    opacity: 0.3;
+}
+
+
+.item-juke h3{
+    font-size: 1.1em;
+    margin-left: 2%;
+}
+
+.btn-add-juke{
+    position: absolute;
+    margin-left: 85%;
+    margin-top: 43%;
+    cursor: pointer;
+}
+
+.btn-add-juke:hover a{
+    color: var(--btnBlueSelect);
+}
+

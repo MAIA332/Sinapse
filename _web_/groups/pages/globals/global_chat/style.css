@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: var(--dark);
+}
+
+
+#chat{
+    width: 100%;
+    height: 500px;
+    overflow-y: auto;
+}
+
+#conteudo{
+    margin-top: 10%;
+    width: 40%;
+    background: var(--standart);
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 12px;
+    -moz-border-radius:12px;
+    -o-border-radius:12px;
+    -webkit-border-radius:12px;
+    z-index: 1;
+}
+
+#caixa-chat{
+    width: 90%;
+    height: 400px;
+    
+}
+
+#dados-chat{
+    width: 100%;
+    padding: 5%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family:  sans-serif;
+}
+
+input[type="text"]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid gray;
+    background-color: transparent;
+	transition: 0.3s;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+input[type="submit"]:hover{
+    border: 1px solid aqua;
+}
+
+ textarea{
+    margin-top: 5%;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-family: 'Verdana';
+    resize: none;
+}
+input, textarea{
+    margin-bottom: 3px;
+}
+
+form{
+    margin-top: 25%;
+}
+
+
+::-webkit-scrollbar-track {
+    background-color: #333;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    background: #333;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+    border-radius: 10px;
+  }
+  

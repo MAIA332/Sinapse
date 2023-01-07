@@ -1,0 +1,258 @@
+
+/* CSS INITIAL */
+
+  /*===============================================================================================*/
+  /* ================================== BANNER ============================================== */
+
+.paralax-banner{
+    margin-top: 3%;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 2%;
+    background: url('https://i.pinimg.com/originals/c6/33/c2/c633c20ede82f0e0ced7d570dbe3a1f3.gif') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* opacity: .9; */
+  }
+
+.banner-alt p{
+  color: var(--standart);
+  font-size: 2.5em;
+  position: absolute;
+  font-weight: bolder;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+
+.banner-alt button{
+  background-color: var(--btnBlue);
+  border-radius: 7px;
+  font-size: 1.3em;
+  width: 20%;
+  height: 35px;
+  border: none;
+}
+
+.banner-alt button a{
+  color: var(--standart);
+  font-weight: bolder;
+}
+
+.banner-alt button:hover{
+  background-color: var(--btnBlueSelect);
+}
+
+#px-btn-1{
+  margin-left: 25%;
+  margin-top: 20%;
+}
+
+#px-btn-2{
+  margin-left: 10%;
+  background-color: var(--SkyBlue);
+}
+
+#px-btn-2 a{
+  color: var(--tertiary);
+}
+
+#px-btn-2:hover{
+  background-color: var(--DarkSky);
+}
+
+/*===============================================================================================*/
+  /* ================================== CARDS  SECTION 01============================================== */
+
+
+#section-01{
+  height: 300px;
+}
+
+.card{
+  width: 25%;
+  height: 150px;
+  border-radius: 6px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  transition: 0.5s;
+  margin-top: 2%;
+  position: absolute;
+}
+
+.card p{
+  margin-left: 3%;
+}
+
+.card:hover{
+  -ms-transform: translate(0px, -10px);
+  transform: translate(0px, -10px);
+  box-shadow: 0px 15px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.card img{
+  margin-left: 90%;
+  margin-top: -5%;
+}
+
+.card-1{
+  margin-left: 2%;
+}
+
+.card-2{
+  margin-left: 37%;
+}
+
+.card-3{
+  margin-left: 70%;
+}
+
+.half-img{
+  margin-top: -38%;
+  width: 48%;
+  height: 138px;
+  float: right;
+}
+
+.img-1{
+  background: url('https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80') no-repeat;
+  background-size: cover;
+}
+.img-2{
+  background: url('https://images.unsplash.com/photo-1585935238141-240f3e5567fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80') no-repeat;
+  background-size: cover;
+}
+.img-3{
+  background: url('https://images.unsplash.com/photo-1556742212-5b321f3c261b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80') no-repeat;
+  background-size: cover;
+}
+
+
+/*===============================================================================================*/
+  /* ================================== CARDS  SECTION 02============================================== */
+
+#section-02{
+  height: 600px;
+  margin-bottom: 2%;
+
+}
+
+.card-02{
+  height: 500px;
+  width: 30%;
+  margin-top: 2%;
+  position: absolute;
+  cursor: default;
+}
+
+.card-02 .t{
+  font-size: 1.4em;
+  font-weight: bolder;
+  margin-left: 5%;
+}
+
+.card-02 .s{
+  font-size: 1.2em;
+  margin-left: 5%;
+}
+
+.item-1{
+  margin-left: 2%;
+  background: url('https://images.unsplash.com/photo-1605370898509-7300113f91a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=376&q=80') no-repeat;
+  background-size: cover;
+}
+
+.item-1 .t{
+  color: var(--standart);
+}
+
+.item-1 .s{
+  color: var(--standart);
+}
+
+.item-2{
+  margin-left: 35%;
+  background: url('https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80') no-repeat;
+  background-size: cover;
+}
+
+.item-2 .t{
+  color: var(--tertiary);
+}
+
+.item-2 .s{
+  color: var(--tertiary);
+}
+
+.item-3{
+  margin-left: 68%;
+  background: url('https://images.unsplash.com/photo-1605152812265-11c5e709ff1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=282&q=80') no-repeat;
+  background-size: cover;
+}
+
+.item-3 .t{
+  color: var(--standart);
+}
+
+.item-3 ul{
+  list-style: none;
+  font-size: 1.2em;
+}
+
+.item-3 ul li a{
+  color: var(--standart);
+}
+
+.item-3 ul li p{
+  color: var(--dark);
+  margin-top: -3%;
+}
+
+
+
+/*===============================================================================================*/
+  /* ================================== CARDS  SECTION 03============================================== */
+
+#section-03 h2{
+  margin-left: 2%;
+}
+
+#section-03 h2 hr{
+  margin-left: -1%;
+  width: 95%;
+}
+
+.card-03{
+  width: 30%;
+  margin-left: 5%;
+  height: 250px;
+  margin-bottom: 5%;
+}
+
+.card-03 img{
+  width: 100%;
+  height: 250px;
+  transition: 0.5s;
+  
+}
+
+.card-03:hover img{
+  transform: scale(1.1);
+}
+
+.card-03 hr{
+  opacity: 0.5;
+  width: 150%;
+}
+
+.card-03 .views{
+  position: absolute;
+  margin-left: 33%;
+  margin-top: -1%;
+}
+
+.card-03 .desc{
+  position: absolute;
+  width: 40%;
+  margin-top: -20%;
+  margin-left: 40%;
+}

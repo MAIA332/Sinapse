@@ -1,0 +1,244 @@
+
+/* =============================================================================================== */
+
+/* =============================== RESPONSIVIDADE ATÉ 700px=============== ================================ */
+
+@media (max-width: 700px) {
+
+    .header{
+        height: 90px;
+      }
+    
+      .header .logo{
+        width: 54%;
+      }
+    
+      .header .logo-text{
+        margin-left: 20%;
+      }
+    
+      .dropbtn{
+        background-color: var(--secondary);
+      }
+      
+      header .control-nav {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        display: block;
+        width: 30px;
+        padding: 5px 0;
+        border: solid var(--dark);
+        border-width: 3px 0;
+        z-index: 2;
+        cursor: pointer;
+      }
+    
+      header .control-nav:before {
+        content: "";
+        display: block;
+        height: 3px;
+        background: #333;
+      }
+    
+      header .control-nav-close {
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        display: block;
+        z-index: 1;
+        background: rgba(0,0,0,0.4);
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+        -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
+        transform: translate(100%, 0);
+      }
+    
+      .header .menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 250px;
+        border-left: 1px solid var(--silver);
+        background: var(--secondary);
+        overflow-x: auto;
+        z-index: 2;
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+        -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
+        transform: translate(100%, 0);
+      }
+    
+      .user-img{
+        position: absolute;
+        margin-top: 20%;
+        margin-left: -30%;
+      }
+    
+    /* =============================== RESPONSIVIDADE --FOOTER--   =============== ================================ */
+    
+    .footer{display: none;}
+    
+    
+    #control-nav:checked ~ .control-nav-close {
+      -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+    
+    #control-nav:checked ~ .menu {
+      -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+
+    /* =============================== RESPONSIVIDADE --BANNER-- =============== ================================ */
+    
+    
+    .banner-alt{
+      margin-left: -15%;
+    }
+    
+    
+    .banner-alt button{
+      width: 50%;
+      height: 60px;
+      position: absolute
+    }
+    
+    #px-btn-1{margin-top: 55%; margin-left: 40%;}
+    #px-btn-2{margin-top:80%; margin-left: 40%;}
+    
+    /* =============================== RESPONSIVIDADE --SECTION 01--   =============== ================================ */
+    
+    #section-01{
+      margin-bottom: 5%;
+    }
+    
+    .card{
+      display: block;
+      width: 100%;
+      position: relative;
+      margin-top: 5%;
+    }
+    .card-1{margin-left: 0%;}
+    .card-2{margin-left: 0%;}
+    .card-3{margin-left: 0%;}
+    
+    
+    .card img{
+      margin-left: 5%;
+      width: 10%;
+      margin-top: 10%;
+    }
+    
+    
+    .half-img{
+      margin-top: -7%;
+      width: 48%;
+      height: 138px;
+      float: right;
+    }
+    
+    /* =============================== RESPONSIVIDADE --SECTION 02--   =============== ================================ */
+    
+    #section-02{
+      margin-top: 50%;
+      display: block;
+    }
+    
+    .card-02{
+      width: 100%;
+      position: relative;
+    }
+
+    .item-1{margin-left: 0%;}
+    .item-2{margin-left: 0%;}
+    .item-3{ margin-left: 0%;}
+    
+
+}
+
+@media (min-width: 730px) and (max-width: 1000px) {
+
+  .header{
+    height: 90px;
+  }
+
+  .header .logo{
+    width: 35%;
+  }
+
+  .header .logo-text{
+    margin-left: 20%;
+  }
+
+  .dropbtn{
+    background-color: var(--secondary);
+  }
+  
+  header .control-nav {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: block;
+    width: 30px;
+    padding: 5px 0;
+    border: solid var(--dark);
+    border-width: 3px 0;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  header .control-nav:before {
+    content: "";
+    display: block;
+    height: 3px;
+    background: #333;
+  }
+
+  header .control-nav-close {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    z-index: 1;
+    background: rgba(0,0,0,0.4);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    -webkit-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+  }
+
+  .header .menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 250px;
+    border-left: 1px solid var(--silver);
+    background: var(--secondary);
+    overflow-x: auto;
+    z-index: 2;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    -webkit-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+  }
+
+  .user-img{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: -30%;
+  }
+
+}
