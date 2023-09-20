@@ -14,7 +14,7 @@ Bem-vindo ao repositório do projeto **Sinapse**, um exemplo prático destinado 
 
 ## Pagina principal:
 
-- ![image](https://github.com/MAIA332/Sinapse/assets/67965680/7f4b7fb5-488e-43bc-a361-86b37b7b9292)
+![image](https://github.com/MAIA332/Sinapse/assets/67965680/7f4b7fb5-488e-43bc-a361-86b37b7b9292)
 
 ![image](https://github.com/MAIA332/Sinapse/assets/67965680/e33e4462-e9ae-4e44-bdce-f82196a49f1f)
 
