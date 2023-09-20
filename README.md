@@ -6,8 +6,8 @@ Bem-vindo ao repositório do projeto **Sinapse**, um exemplo prático destinado 
 
 ## Recursos e Destaques
 
-- Layout moderno e responsivo, adequado para dispositivos móveis e desktop.
-- Páginas simuladas, incluindo Home, Serviços, Sobre Nós e Contato.
+- Layout moderno e responsivo, adequado para dispositivos desktop.
+- Páginas simuladas, incluindo Home, Serviços, Comunidade e Contato.
 - Interatividade aprimorada com ```JavaScript```, proporcionando animações e efeitos interativos.
 - Formulário de contato funcional, utilizando ```PHP``` para processamento.
 - Estilização consistente e atraente, aplicada com o uso de ```CSS```.
